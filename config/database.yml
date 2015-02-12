@@ -1,3 +1,11 @@
+#test:
+#  <<: *default
+#  database: travis-test_test
+test:
+  adapter: postgresql
+  database: travis_ci_test
+  username: postgres
+
 # PostgreSQL. Versions 8.2 and up are supported.
 #
 # Install the pg driver:
